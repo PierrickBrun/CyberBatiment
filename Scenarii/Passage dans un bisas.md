@@ -13,3 +13,8 @@ accéder à la [Zone] couverte par la [Badgeuse] 256 le 16/08/16 à 10:52
 - Le [ServeurApplicatif] interroge la base de donnée et renvoie OK.
 - Le [ServeurControle] renvoie OK à la [Badgeuse] et au [Bisas]
 - La LED de la [Badgeuse] 256 passe au vert
+- La porte du côté de Virginie du [Bisas] correspondant s'ouvre
+- Virginie entre dans le [Bisas]
+- La porte ouverte du [Bisas] se ferme
+- La porte de l’autre côté s’ouvre
+- Virginie sort du [Bisas] et entre dans la [Zone] où elle pourra profiter du spectacle
