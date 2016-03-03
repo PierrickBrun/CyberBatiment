@@ -1,4 +1,4 @@
-Editer un badge
+Gestion des badges
 ==========================================
 Définir une autorisation
 ------------------------

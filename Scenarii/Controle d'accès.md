@@ -1,6 +1,6 @@
-Passage dans un bisas
+Controle d'accès
 =====================
- Passage normal
+ Passage normal dans un Bisas
  --------------
 
 **Contexte** Virginie est visiteuse, elle vient voir l'épreuve de triple saut le 16/08/16 au stade de
