@@ -16,4 +16,3 @@ Nilton-Santos à Rio.
  - 10h53 : La LED du [Bisas] passe à l'orange
  - 10h53 : La porte de l’autre côté s’ouvre
  - 10h53 : Virginie sort du [Bisas] et entre dans la [Zone] où elle pourra profiter du spectacle
- - 10h53 : La LED du [Bisas] passe au vert
