@@ -6,12 +6,9 @@ Controle d'accès
 **Contexte** Virginie est visiteuse, elle vient voir l'épreuve de triple saut le 16/08/16 au stade de
 Nilton-Santos à Rio.
 
+**Intention** Passage dans un [Bisas] à l'aide d'un billet valide et entrée dans la Zone.
+
 - Virginie passe son billet 879277246472 possédant un QR code sur la [Badgeuse] 256, à 10:52
-- Le [ServeurControle] reçoit la demande d’accès
-- Le [ServeurControle] demande au [ServeurApplicatif] si le [Badge] 879277246472 est autorisé à
-accéder à la [Zone] couverte par la [Badgeuse] 256 le 16/08/16 à 10:52
-- Le [ServeurApplicatif] interroge la base de donnée et renvoie OK.
-- Le [ServeurControle] renvoie OK à la [Badgeuse] et au [Bisas]
 - La LED de la [Badgeuse] 256 passe au vert
 - La porte du côté de Virginie du [Bisas] correspondant s'ouvre
 - Virginie entre dans le [Bisas]
