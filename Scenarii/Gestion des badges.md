@@ -3,16 +3,19 @@ Gestion des badges
 Définir une autorisation
 ------------------------
 
-**Intention** [CyberCompetition] est en mesure de communiquer avec l’ERP interne [CyberBatiment] Pour la vente de billets pour le Stade de Nilton Santos
+**Intention** L’[Administrateur] Michel en charge du groupe “Compétis Hockey mardi 22/03” souhaite ajouter une autorisation d’accès à la zone “Tribune 12B” et “Hall entree tribune 12B” pour le groupe susmentionné. Ceci afin d’autoriser l’accès aux tribunes aux personnes ayant acheté leur billet pour le match du 22 mars de 20h à 23h.
 
-**Contexte** Il existe un [Groupe] “Hockey16012015” dédié à la compétition ayant lieu le 16/01/2017 de 12h à 17h donnant accès au stade dans les horaires de la compétition
+**Contexte** La zone “Tribune 12B” a été créée précédement par le superviseur.
 
- - 21h23 : Un billet pour le Stade de Nilton Santos à été vendu pour la compétition qui aura lieu le 16/01/2017 de 12h à 17h sur la plateforme [CyberCompetition]
- - 21h23 : Le système externe [CyberCompetition] envoie une requète à l’[APIBillets] respectant le format normalisé par l’ERP [CyberCompetition] et contenant les - informations suivantes: Nom du groupe
-“Hockey16012015”, Nom du spectateur “Virginie Maris”, Code correspondant au QRCode généré.
- - 21h24 : Le Système recoit et interprète l’information reçue
- - 21h24 : Le Système enregistre numéro du billet dans le [Groupe] “Hockey16012015”
- - 21h24 : Le Système accuse de la création de l'autorisation
+
+- 18h30 : Michel accède à la fenètre d’ajout d’autorisation sur son poste administrateur
+- 18h30 : Il séléctionne le groupe de badge “Compétis Hockey mardi 22/03” parmis les deux groupes dont il est en charge
+- 18h31 : Il sélectionne la zone “Tribune 12B” et “Hall entree tribune 12B”
+- 18h32 : Il ne sélectionne pas de mois ni de jour de [périodicité] mais spécifie la date: du 22/03/2017 au 22/03/2017
+- 18h32 : Il entre l’horaire: De 20h00 à 23h00
+- 18h33 : Il clique sur le bouton de validation
+
+L’[autorisation accès] est effective pour les badgeurs du groupe “Compétis Hockey mardi 22/03” le 22/03 à partir de 20h jusqu’à 23h.
 
 
 Passage non autorisé
@@ -40,7 +43,6 @@ Nilton-Santos à Rio. Anne essaie de passer dans le [Bisas] avec Virginie pour �
 **Intention** Passage en piggybacking, génération d'un incident et blocage des utilisateurs en attendant la résolution de l'incident.
 
  - 08h12 : Virginie passe son billet 879277246472 possédant un QR code sur la [Badgeuse] 256
- - 08h12 : Le [Système] interroge la base de donnée et renvoie OK.
  - 08h12 : La LED de la [Badgeuse] 256 passe au vert
  - 08h12 : La porte du côté de Virginie du [Bisas] correspondant s'ouvre
  - 08h13 : Virginie entre dans le [Bisas]
